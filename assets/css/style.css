@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	align-content: space-between;
+	height: 10vh;
+	color: white;
+}
+
+main {
+}
+
+.about {
+	background-color: blue;
+	height: 100vh;
+}
+.projects {
+	background-color: green;
+	height: 100vh;
+}
+.resume {
+	background-color: grey;
+	height: 100vh;
+}
+.contact-me {
+	background-color: orange;
+	height: 100vh;
+}
+
+.active {
+	color: orange;
+	transition: color 2s;
+}
+
+.sticky {
+	position: fixed;
+	width: 100%;
+	background-color: black;
+	transform: translate(0, -200px);
+	transition: 1s ease;
+	top: 0;
+}
+
+.inView {
+	width: 100%;
+	transform: translate(0, 0);
+	transition: 1s ease;
+}
