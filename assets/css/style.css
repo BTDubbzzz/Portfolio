@@ -12,7 +12,7 @@
 	margin-top: 2vh;
 	background-color: transparent;
 	position: absolute;
-	color: white;
+	color: black;
 	width: 100%;
 }
 
@@ -22,21 +22,40 @@
 	align-items: center;
 	align-content: center;
 	height: 5vh;
-	background-color: purple;
+	background-color: black;
 	color: white;
 	position: fixed;
 	width: 100%;
 	top: 0;
+	opacity: 0.85;
 }
 
 .home {
-	background-color: black;
+	background-image: url(../images/kc_skyline_minimal_small.png);
 	height: 100vh;
+	/* background-attachment: fixed; */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	padding-top: 10vh;
 	color: white;
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20% 20%;
+	grid-template-rows: 20% 20% 20% 20% 20%;
 }
+
+.home div {
+	grid-column: 2 / 4;
+	grid-row-start: 2;
+	column-span: all;
+}
+
+.home div h1 {
+	color: black;
+}
+
 .about {
-	background-color: blue;
+	background-image: linear-gradient(black, rgb(39, 39, 39));
 	height: 100vh;
 }
 .projects {

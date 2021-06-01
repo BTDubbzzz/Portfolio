@@ -27,7 +27,7 @@ $(function () {
 $(function () {
 	const scrollNav = $('#scroll-nav');
 	const topNav = $('#top-nav');
-	headerHeight = $('#scroll-nav').height();
+	targetHeight = $('.home').height();
 
 	$(window).scroll(function () {
 		// scrollNav.addClass('upper');
@@ -36,7 +36,7 @@ $(function () {
 		// } else {
 		// 	scrollNav.removeClass('sticky');
 		// }
-		if ($(this).scrollTop() > scrollNav.height() * 5) {
+		if ($(this).scrollTop() > targetHeight) {
 			scrollNav.addClass('inView');
 		} else {
 			scrollNav.removeClass('inView');
