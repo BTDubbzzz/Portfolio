@@ -5,19 +5,22 @@
 
 #top-nav {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: center;
 	align-items: center;
-	align-content: space-evenly;
+	align-content: center;
 	height: 10vh;
-	background-color: black;
+	margin-top: 2vh;
+	background-color: transparent;
+	position: absolute;
 	color: white;
+	width: 100%;
 }
 
 #scroll-nav {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: center;
 	align-items: center;
-	align-content: space-evenly;
+	align-content: center;
 	height: 5vh;
 	background-color: purple;
 	color: white;
@@ -26,6 +29,12 @@
 	top: 0;
 }
 
+.home {
+	background-color: black;
+	height: 100vh;
+	padding-top: 10vh;
+	color: white;
+}
 .about {
 	background-color: blue;
 	height: 100vh;
@@ -48,14 +57,6 @@
 	transition: color 1s;
 }
 
-/* .sticky {
-	position: fixed;
-	width: 100%;
-	transition: 1s ease;
-	transform: translate(0, -200px);
-	top: 0;
-} */
-
 .upper {
 	transform: translate(0, -200px);
 	transition: 1s ease;
@@ -64,4 +65,33 @@
 .inView {
 	transform: translate(0, 0);
 	transition: 0.6s ease;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 25% 50% 25%;
+}
+
+nav a {
+	margin-left: 2vw;
+	margin-right: 2vw;
+	cursor: pointer;
+}
+
+nav a:hover {
+	color: orange;
+	transition: 1s;
+}
+
+#nav-name {
+	align-self: center;
+	justify-self: center;
+}
+#blake {
+	align-self: center;
+	justify-self: center;
+}
+#wright {
+	align-self: center;
+	justify-self: center;
 }
