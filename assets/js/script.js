@@ -36,7 +36,7 @@ $(function () {
 		// } else {
 		// 	scrollNav.removeClass('sticky');
 		// }
-		if ($(this).scrollTop() > 250 * 3) {
+		if ($(this).scrollTop() > scrollNav.height() * 5) {
 			scrollNav.addClass('inView');
 		} else {
 			scrollNav.removeClass('inView');

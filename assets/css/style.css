@@ -45,7 +45,7 @@
 
 .active {
 	color: orange;
-	transition: color 2s;
+	transition: color 1s;
 }
 
 /* .sticky {
@@ -63,5 +63,5 @@
 
 .inView {
 	transform: translate(0, 0);
-	transition: 1s ease;
+	transition: 0.6s ease;
 }
