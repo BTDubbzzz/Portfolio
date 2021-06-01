@@ -278,7 +278,9 @@ nav a {
 	margin-left: 2vw;
 	margin-right: 2vw;
 	cursor: pointer;
+	color: inherit;
 	transition: color 1s;
+	text-decoration: none;
 }
 
 nav a:hover {
