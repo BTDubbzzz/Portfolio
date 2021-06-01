@@ -3,21 +3,21 @@ $(function () {
 });
 
 $(function () {
-	const mainNav = $('nav');
-	headerHeight = $('nav').height();
+	const scrollNav = $('#scroll-nav');
+	const topNav = $('#top-nav');
+	headerHeight = $('#scroll-nav').height();
 
 	$(window).scroll(function () {
-		// if ($(this).scrollTop() > headerHeight) {
-		// 	mainNav.addClass('sticky');
+		// scrollNav.addClass('upper');
+		// if ($(this).scrollTop() > 250) {
+		// 	scrollNav.addClass('sticky');
 		// } else {
-		// 	mainNav.removeClass('sticky');
+		// 	scrollNav.removeClass('sticky');
 		// }
-		if ($(this).scrollTop() > headerHeight * 3) {
-			mainNav.addClass('sticky');
-			mainNav.addClass('inView');
+		if ($(this).scrollTop() > 250 * 3) {
+			scrollNav.addClass('inView');
 		} else {
-			mainNav.removeClass('sticky');
-			mainNav.removeClass('inView');
+			scrollNav.removeClass('inView');
 		}
 	});
 });
