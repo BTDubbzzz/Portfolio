@@ -1,5 +1,27 @@
+function vhTOpx(value) {
+	var w = window,
+		d = document,
+		e = d.documentElement,
+		g = d.getElementsByTagName('body')[0],
+		x = w.innerWidth || e.clientWidth || g.clientWidth,
+		y = w.innerHeight || e.clientHeight || g.clientHeight;
+
+	var result = (y * value) / 100;
+	return result;
+}
+
+const pixels = vhTOpx(5);
+
 $(function () {
-	$.scrollIt();
+	$.scrollIt({
+		upKey: 38,
+		downKey: 40,
+		easing: 'linear',
+		scrollTime: 600,
+		activeClass: 'active',
+		onPageChange: null,
+		topOffset: pixels * -1,
+	});
 });
 
 $(function () {
