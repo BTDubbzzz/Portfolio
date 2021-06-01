@@ -172,6 +172,7 @@ h1 {
 .project-div img {
 	height: 90%;
 	width: 90%;
+	border: black solid 2px;
 }
 
 .project-div p {
@@ -238,10 +239,19 @@ h1 {
 	justify-content: center;
 }
 
+.links a {
+	text-decoration: none;
+}
+
 .links h2 {
 	margin-top: 5vh;
 	margin-left: 10vw;
 	margin-right: 10vw;
+	font-family: 'Monsterrat', sans-serif;
+	font-size: 2rem;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: rgb(173, 133, 22);
 }
 
 .active {
@@ -274,19 +284,6 @@ nav a {
 nav a:hover {
 	color: orange;
 	transition: 0.5s;
-}
-
-#nav-name {
-	align-self: center;
-	justify-self: center;
-}
-#blake {
-	align-self: center;
-	justify-self: center;
-}
-#wright {
-	align-self: center;
-	justify-self: center;
 }
 
 footer {
