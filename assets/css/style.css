@@ -124,9 +124,68 @@
 	padding-top: 5vh;
 }
 .projects {
-	background-color: green;
+	background-color: rgb(39, 39, 39);
+	/* background-image: linear-gradient(rgb(39, 39, 39), black); */
 	height: 100vh;
+	display: block;
+	text-align: center;
+	color: white;
 }
+
+.projects h1 {
+	padding-top: 5vh;
+}
+
+.projects-grid {
+	display: grid;
+	grid-template-columns: 1fr 20% 20% 20% 1fr;
+	grid-template-rows: 8vh 20vh 20vh 20vh 32vh;
+	column-gap: 1vw;
+	row-gap: 2vh;
+}
+
+.project-div img {
+	height: 90%;
+	width: 90%;
+}
+
+.project-1 {
+	grid-column: 2 / 3;
+	grid-row: 2 / 3;
+}
+.project-2 {
+	grid-column: 3 / 4;
+	grid-row: 2 / 3;
+}
+.project-3 {
+	grid-column: 4 / 5;
+	grid-row: 2 / 3;
+}
+.project-4 {
+	grid-column: 2 / 3;
+	grid-row: 3 / 4;
+}
+.project-5 {
+	grid-column: 3 / 4;
+	grid-row: 3 / 4;
+}
+.project-6 {
+	grid-column: 4 / 5;
+	grid-row: 3 / 4;
+}
+.project-7 {
+	grid-column: 2 / 3;
+	grid-row: 4 / 5;
+}
+.project-8 {
+	grid-column: 3 / 4;
+	grid-row: 4 / 5;
+}
+.project-9 {
+	grid-column: 4 / 5;
+	grid-row: 4 / 5;
+}
+
 .resume {
 	background-color: grey;
 	height: 100vh;
