@@ -40,7 +40,7 @@
 	padding-top: 10vh;
 	color: white;
 	display: grid;
-	grid-template-columns: 20% 20% 20% 20% 20%;
+	grid-template-columns: 10% 20% 20% 20% 20% 10%;
 	grid-template-rows: 20% 20% 20% 20% 20%;
 }
 
@@ -52,11 +52,76 @@
 
 .home div h1 {
 	color: black;
+	margin-right: 5vw;
+	font-size: 5rem;
+}
+
+.home div h2 {
+	color: black;
+	font-size: 3rem;
+}
+.text-box {
+	margin-top: 15vh;
+	display: grid;
+	grid-template-columns: 25% 50% 25%;
+	grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+.text-box p {
+	grid-column: 2 / 3;
+	line-height: 2rem;
+	margin-bottom: 5rem;
+}
+
+.skills-container {
+	display: grid;
+	grid-template-columns: 1fr 20% 20% 20% 1fr;
+	grid-template-rows: 5vh 5vh 5vh 5vh 5vh 5vh 5vh;
+	column-gap: 3vw;
+}
+
+.skills-box {
+	color: white;
+}
+.skills-box p {
+	margin-top: 1vh;
+}
+
+.skills-box img {
+	margin-top: 2vh;
+}
+
+.skills-box-1 {
+	height: auto;
+	width: auto;
+	background-color: grey;
+	grid-column: 2 / 3;
+	grid-row: 2 / 7;
+}
+.skills-box-2 {
+	height: auto;
+	width: auto;
+	background-color: grey;
+	grid-column: 3 / 4;
+	grid-row: 2 / 7;
+}
+.skills-box-3 {
+	height: auto;
+	width: auto;
+	background-color: grey;
+	grid-column: 4 / 5;
+	grid-row: 2 / 7;
 }
 
 .about {
 	background-image: linear-gradient(black, rgb(39, 39, 39));
 	height: 100vh;
+	color: white;
+	display: block;
+	text-align: center;
+}
+.about h1 {
+	padding-top: 5vh;
 }
 .projects {
 	background-color: green;
@@ -95,11 +160,12 @@ nav a {
 	margin-left: 2vw;
 	margin-right: 2vw;
 	cursor: pointer;
+	transition: color 1s;
 }
 
 nav a:hover {
 	color: orange;
-	transition: 1s;
+	transition: 0.5s;
 }
 
 #nav-name {
