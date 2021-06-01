@@ -51,7 +51,7 @@ h1 {
 	color: white;
 	display: grid;
 	grid-template-columns: 10% 20% 20% 20% 20% 10%;
-	grid-template-rows: 20% 20% 20% 20% 20%;
+	grid-template-rows: 10% 10% 20% 20% 20% 20%;
 }
 
 .home div {
@@ -302,7 +302,11 @@ footer h4 {
 }
 
 .contact-info {
-	margin-top: 60vh;
+	margin-top: 50vh;
 	display: flex;
 	justify-content: space-evenly;
+}
+
+.contact-info h1 {
+	font-size: 2rem;
 }

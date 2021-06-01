@@ -12,6 +12,19 @@ function vhTOpx(value) {
 
 const pixels = vhTOpx(5);
 
+const mediaSize = window.matchMedia('(min-width: 936px');
+
+function alertMobile(mediaSize) {
+	if (mediaSize.matches) {
+		// media is at least mediaSize
+	} else {
+		// media is less than mediaSize
+		alert('Mobile friendly coming soon!');
+	}
+}
+
+alertMobile(mediaSize);
+
 $(function () {
 	$.scrollIt({
 		upKey: 38,
