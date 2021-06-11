@@ -40,7 +40,7 @@ $(function () {
 $(function () {
 	const scrollNav = $('#scroll-nav');
 	const topNav = $('#top-nav');
-	targetHeight = $('.home').height();
+	targetHeight = $('.new-home').height();
 
 	$(window).scroll(function () {
 		// scrollNav.addClass('upper');
