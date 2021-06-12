@@ -76,13 +76,15 @@ nav a:hover {
 .new-home {
 	background-image: url(../images/kc_skyline_minimal_small.png);
 	height: 100vh;
-	background-position: center;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
 	color: white;
 	display: block;
 }
 
 .welcome {
-	margin-top: 15vh;
+	margin-top: 5vh;
 	margin-left: 12vw;
 	margin-right: 60vw;
 }
@@ -219,7 +221,6 @@ nav a:hover {
 	display: block;
 	text-align: center;
 	color: white;
-	padding-top: 5vh;
 	padding-bottom: 15vh;
 }
 
@@ -372,7 +373,7 @@ nav a:hover {
 
 @media (max-width: 1600px) {
 	.welcome {
-		margin-top: 10vh;
+		margin-top: 5vh;
 		margin-left: 10vw;
 		margin-right: 50vw;
 	}
@@ -395,7 +396,7 @@ nav a:hover {
 	}
 
 	.welcome {
-		margin-top: 4vh;
+		margin-top: 5vh;
 		margin-left: 5vw;
 		margin-right: 50vw;
 	}
