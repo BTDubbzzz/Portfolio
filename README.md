@@ -8,4 +8,4 @@ You can see the website at https://btdubbzzz.github.io/Portfolio/ or https://bla
 
 ## Screenshot
 
-![Alt Text](./public/assets/images/project-screenshots/portfolio_screenshot)
+![Alt Text](./public/assets/images/project-screenshots/portfolio_screenshot.JPG)
