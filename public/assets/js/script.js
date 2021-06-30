@@ -23,7 +23,7 @@ function alertMobile(mediaSize) {
 	}
 }
 
-alertMobile(mediaSize);
+// alertMobile(mediaSize);
 
 $(function () {
 	$.scrollIt({
