@@ -533,6 +533,18 @@ nav a:hover {
 		color: black;
 		font-size: 3rem;
 	}
+	.projects {
+		/* background-color: rgb(39, 39, 39); */
+		background-image: linear-gradient(rgb(39, 39, 39, 1), rgba(0, 0, 0, 0.719));
+		height: auto;
+		display: block;
+		text-align: center;
+		color: white;
+		padding-bottom: 15vh;
+	}
+	.projects-grid {
+		display: block;
+	}
 }
 /* .skills-box {
 	color: white;
